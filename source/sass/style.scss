@@ -1,1 +1,10 @@
-// Начните писать стили здесь
+@import "base/normalize";
+@import "variables";
+@import "base/fonts";
+@import "base/common";
+
+@import "sections/page-header";
+@import "sections/promo";
+@import "sections/features";
+@import "sections/find-hotel";
+@import "sections/page-footer";

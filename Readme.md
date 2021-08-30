@@ -1,7 +1,7 @@
 # Личный проект «Седона» 
 
 * Студент: [Olesya Panova](https://up.htmlacademy.ru/adaptive/23/user/91047).
-* Наставник: `Неизвестно`.
+* Наставник: [Ольга Вадясова](https://htmlacademy.ru/profile/ad0v0).
 
 ---
 

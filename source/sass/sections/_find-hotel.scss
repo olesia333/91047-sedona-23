@@ -1,0 +1,32 @@
+.find-hotel {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.find-hotel__title {
+  margin: 0;
+  margin-bottom: 35px;
+  color: $basic-black;
+  font-size: 30px;
+  line-height: 26px;
+}
+
+.find-hotel__text {
+  margin: 0;
+  margin-bottom: 42px;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.find-hotel__button {
+  width: 280px;
+  margin-bottom: 49px;
+  padding-top: 14px;
+  padding-bottom: 17px;
+  font-size: 21px;
+  line-height: 26px;
+  text-align: center;
+  text-transform: uppercase;
+  color: $basic-white;
+  background: $basic-blue;
+}

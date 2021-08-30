@@ -1,0 +1,77 @@
+.page-header {
+  background-color: $basic-white;
+  color: $basic-gray;
+}
+
+.main-nav {
+  font-size: 18px;
+  line-height: 40px;
+  font-weight: 700;
+  color: $basic-white;
+  text-transform: uppercase;
+}
+
+.main-nav__list {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.2) 100%);
+}
+
+.main-nav__item {
+  padding-top: 10px;
+  padding-bottom: 5px;
+  text-align: center;
+  border-bottom: 1px solid ;
+  background-color: $basic-blue;
+  box-shadow: 0px 1px 0px rgba(1, 1, 1, 0.2), inset 0px 1px 0px rgba(255, 255, 255, 0.2);
+
+    &:hover {
+      background: $special-blue;
+    }
+
+    &:active {
+      background: $special-dark-blue;
+    }
+}
+
+.main-nav__link {
+  color: inherit;
+}
+
+.main-nav__item:active .main-nav__link{
+  opacity: 0.3;
+}
+
+.main-nav__toggle {
+  position: relative;
+  width: 23px;
+  height: 23px;
+  background-color: transparent;
+  &:hover {
+    opacity: 0.6;
+  }
+  &:active {
+    opacity: 0.3;
+  }
+}
+
+.main-nav--closed .main-nav__toggle::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 23px;
+  height: 23px;
+  background: url("../img/icon-menu.svg");
+  background-position: 0 0;
+  background-repeat: no-repeat;
+}
+
+.main-nav--opened .main-nav__toggle {
+  position: absolute;
+  top: 0px;
+  right: 0;
+  width: 23px;
+  height: 23px;
+  background: url("../img/icon-cross.svg");
+  background-position: 0 0;
+  background-repeat: no-repeat;
+}
