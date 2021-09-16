@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" href="favicon.ico">
-    <title>Седона Главная страница</title>
+    <title>Седона. Главная страница</title>
   </head>
   <body class="page__body">
     <header class="page-header">
@@ -35,21 +35,23 @@
       </nav>
     </header>
     <main class="page-main">
-      <div class="promo promo--index">
-        <h1 class="visually-hidden">Добро пожаловать в Седону</h1>
-        <img class="img promo__img" src="./img/text-index.svg" alt="Welcome to the gorgeous Sedona. Because the grand Canyon sucks." width="228" height="214"/>
+      <div class="headline">
+        <div class="headline__img-wrapper headline__img-wrapper--index">
+          <img class="img headline__img" src="./img/text-index.svg" alt="Welcome to the gorgeous Sedona. Because the grand Canyon sucks." width="228" height="214"/>
+        </div>
+        <div class="headline__text-wrapper">
+          <h2 class="title headline__title">Седона — небольшой городок в Аризоне, заслуживающий большего!</h2>
+          <p class="paragraph headline__text">Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</p>
+        </div>
       </div>
       <section class="features">
-        <div class="features__header">
-          <h2 class="features__title">СЕДОНА — небольшой городок в АРИЗОНЕ, зАСЛУЖИвающий большего!</h2>
-          <p class="features__text">Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</p>
-        </div>
+        <h2 class="visually-hidden">Причины посетить Седону</h2>
         <ol class="reset-list features__list">
           <li class="features__item">
             <div class="features__item-info features__item-info--blue">
-              <h3 class="features__item-title">НАСТОЯЩИЙ ГОРОДОК</h3>
+              <h3 class="features__item-title">Настоящий городок</h3>
               <p class="features__item-number">— №1 —</p>
-              <p class="features__item-text">СЕДОНА НЕ АТТРАКЦИОН ДЛЯ ТУРИСТОВ, ТАМ ТЕЧЕТ СВОЯ ЖИЗНЬ</p>
+              <p class="features__item-text">Седона не аттракцион для туристов, там течет своя жизнь</p>
             </div>
             <div class="features__item-img">
               <img class="img" src="img/motel-mobile.jpg" alt="Вид на мотель Седоны">
@@ -63,21 +65,21 @@
               </li>
               <li class="features__item bonus-item bonus-item--present">
                 <div class="features__item-info bonus__item-info">
-                  <h4 class="features__item-title">СУВЕНИРЫ</h4>
+                  <h4 class="features__item-title">Сувениры</h4>
                   <p class="features__item-text">Не только китайского, но и местного производства!</p>
                 </div>
               </li>
               <li class="features__item bonus-item bonus-item--food">
                 <div class="features__item-info bonus__item-info">
-                  <h4 class="features__item-title">ЕДА</h4>
-                  <p class="features__item-text">Всегда заказывайте ФИРМЕННЫЙ БУРГЕР, Вы НЕ разочаруетесь!</p>
+                  <h4 class="features__item-title">Еда</h4>
+                  <p class="features__item-text">Всегда заказывайте фирменный бургер, Вы не разочаруетесь!</p>
                 </div>
               </li>
             </ul>
           </li>
           <li class="features__item">
             <div class="features__item-info features__item-info--blue">
-              <h3 class="features__item-title">ТАМ ЕСТЬ Мост дьявола</h3>
+              <h3 class="features__item-title">Там есть мост дьявола</h3>
               <p class="features__item-number">— №2 —</p>
               <p class="features__item-text">Да, по нему можно пройти! Если вы осмелитесь, конечно</p>
             </div>
@@ -87,21 +89,21 @@
           </li>
           <li class="features__item">
             <div class="features__item-info features__item-info--gray">
-              <h3 class="features__item-title">НЕБОЛЬШАЯ ПЛОЩАДЬ</h3>
+              <h3 class="features__item-title">Небольшая площадь</h3>
               <p class="features__item-number">— №3 —</p>
-              <p class="features__item-text">ВСЕ интересные места находятся очень близко</p>
+              <p class="features__item-text">Все интересные места находятся очень близко</p>
             </div>
           </li>
           <li class="features__item">
             <div class="features__item-info features__item-info--gray">
-              <h3 class="features__item-title">КРАСИВАЯ ДОРОГА</h3>
+              <h3 class="features__item-title">Красивая дорога</h3>
               <p class="features__item-number">— №4 —</p>
-              <p class="features__item-text">ЕХАТЬ В СЕДОНУ ИЗ ЛАС-ВЕГАСА совсем НЕ СКУЧНО!</p>
+              <p class="features__item-text">Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
             </div>
           </li>
           <li class="features__item">
             <div class="features__item-info features__item-info--gray">
-              <h3 class="features__item-title">МАЛО ТУРИСТОВ</h3>
+              <h3 class="features__item-title">Мало туристов</h3>
               <p class="features__item-number">— №5 —</p>
               <p class="features__item-text">Большинство едет в гранд каньон и толпится там</p>
             </div>
@@ -109,14 +111,14 @@
         </ol>
       </section>
       <section class="find-hotel">
-        <h2 class="find-hotel__title">ЗАИНТЕРЕСОВАЛИСЬ?</h2>
-        <p class="find-hotel__text">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в седоне</p>
+        <h2 class="find-hotel__title">Заинтересовались?</h2>
+        <p class="find-hotel__text">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
         <button class="button find-hotel__button" type="button">НАЙТИ гостиницу</button>
         <img class="img" src="img/map-mobile.jpg" width="320" height="350" alt="Карта с гостиницами в Седоне">
       </section>
     </main>
     <footer class="page-footer">
-      <p class="page-footer__tag">#visitSEDONA</p>
+      <p class="page-footer__tag">#visitsedona</p>
       <ul class="reset-list page-footer__social social">
         <li class="social__item">
           <a class="link social__link" href="#">
@@ -143,7 +145,7 @@
           </a>
         </li>
       </ul>
-      <div class="footer__developer developer">
+      <div class="page-footer__developer developer">
         <p class="developer__text">Разработано</p>
         <a class="link developer__link" href="https://htmlacademy.ru/intensive/adaptive">
           <svg class="developer__img" width="27" height="35" viewBox="0 0 27 35" fill="none" xmlns="http://www.w3.org/2000/svg">
